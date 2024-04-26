@@ -41,3 +41,4 @@ jobs:
           script: | 
             cd /var/www/html/project
             git pull origin branch
+            
