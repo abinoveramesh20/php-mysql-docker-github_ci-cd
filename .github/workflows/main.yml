@@ -39,6 +39,6 @@ jobs:
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: | 
-            cd /var/www/html/project
+            cd /var/www/html/php-mysql-docker-github_ci-cd
             git pull origin branch
             
