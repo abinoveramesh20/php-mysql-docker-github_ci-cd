@@ -13,9 +13,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Composer install
-        run: composer install
-
       - name: Remove old Docker image
         run: |
           docker rmi your_username/your_image_name:latest || true
