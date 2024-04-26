@@ -42,3 +42,6 @@ jobs:
             cd /var/www/html/php-mysql-docker-github_ci-cd
             git pull origin branch
             
+      - name: Run Docker container
+        run: |
+          docker run -d -p 8080:80 ${{ steps.build-image.outputs.image_name }}
