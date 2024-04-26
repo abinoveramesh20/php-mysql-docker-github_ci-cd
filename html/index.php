@@ -60,8 +60,6 @@ $userRow = mysqli_fetch_array($res, MYSQLI_ASSOC);
 </nav>
 
 
-
-
 <div class="container">
     <!-- Jumbotron-->
     <div class="jumbotron">
