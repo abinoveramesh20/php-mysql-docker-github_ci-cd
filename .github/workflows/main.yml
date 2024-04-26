@@ -40,7 +40,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: | 
             cd /var/www/html/php-mysql-docker-github_ci-cd
-            git pull origin branch
+            git pull origin main
             
       - name: Run Docker container
         run: |
